@@ -17,6 +17,6 @@ describe('Boilerplate', () => {
     // find h1 on page
     var heading = TestUtils.findRenderedDOMComponentWithClass(appRendered, "heading");
     // assert it has text
-    expect(heading.textContent).toEqual("Hello!");
+    expect(heading.textContent).toEqual("What!!");
   });
 });
